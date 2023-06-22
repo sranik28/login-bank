@@ -8,7 +8,7 @@ document.getElementById('deposit-button').addEventListener('click', function () 
         return;
     }
     if (newInput < 0) {
-        document.getElementById('myAudio').play();
+       document.getElementById('myAudio').play();
         alert("Negative number entered!");
         document.getElementById("myAudio").pause();
         return;
